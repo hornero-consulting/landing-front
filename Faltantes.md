@@ -1,1 +1,0 @@
-Falta modificar: Imagenes de portfolio, imagenes de equipo, Seccion Footer. 
