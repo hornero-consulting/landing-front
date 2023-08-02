@@ -166,7 +166,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -890,9 +890,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/fondo_codigo.jpg") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 140px 0;
 }
 
 .cta h3 {
@@ -913,7 +913,7 @@ section {
   display: inline-block;
   padding: 12px 40px;
   border-radius: 50px;
-  transition: 0.5s;
+  transition: 1s;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
@@ -921,7 +921,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #47b2e4;
-  border: 2px solid #47b2e4;
+  border: 2px solid #0da0e4;
 }
 
 @media (max-width: 1024px) {
