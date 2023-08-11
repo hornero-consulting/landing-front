@@ -40,7 +40,6 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
           <li class="dropdown"><a href="nuestros-servicios.html"><span>Nuestros Servicios</span> <i
                 class="bi bi-chevron-down"></i></a>
             <ul>
@@ -55,10 +54,10 @@
               <li><a href="#Desarrollo-de-E-commerce">Desarrollo de E-commerce</a></li>
             </ul>
           </li>
-
-          <li><a class="nav-link   scrollto" href="#portfolio">Nuestro Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Nuestro Equipo</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contactanos</a></li>
+           <!-- Button trigger modal -->
+           <li><a class="nav-link scrollto" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <strong>Contacto</strong>
+          </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -69,7 +68,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <!-- <section id="breadcrumbs" class="breadcrumbs"> -->
-    <section id="hero" class="d-flex align-items-center"style="height: 60px; background-color:">
+    <section id="hero" class="d-flex align-items-center" style="height: 60px; background-color:">
     </section><!-- End Breadcrumbs -->
 
 
@@ -88,7 +87,8 @@
             seguridad y la flexibilidad,
             nuestras soluciones a medida proporcionan una base sólida para el crecimiento y el éxito de tu negocio.
           </p>
-          <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+          <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
         </div>
         <div class="col-lg-6 col-md-6">
           <img src="assets/img/Desarrollo de software.png" alt="Desarrollo de software" class="img-fluid">
@@ -112,7 +112,8 @@
           aplicaciones se destacan por su funcionalidad,
           estética y usabilidad, brindando una experiencia única y memorable a los usuarios finales.
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
 
@@ -131,7 +132,8 @@
         nuestro enfoque se centra en proporcionar una experiencia excepcional para los usuarios y ayudarte a alcanzar
         tus objetivos móviles.
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
 
@@ -150,7 +152,8 @@
           brinda una visión integral de tus operaciones,
           permitiéndote tomar decisiones informadas y aumentar la agilidad empresarial.
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
 
@@ -173,7 +176,8 @@
           Con un enfoque en la seguridad y la usabilidad, nuestros sistemas web te permiten alcanzar tus metas en línea
           y brindar una experiencia inigualable a tus usuarios.
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
 
@@ -196,7 +200,8 @@
           y el éxito sostenible de tu empresa.
 
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
 
@@ -216,7 +221,8 @@
           mantener tus sistemas en funcionamiento sin interrupciones, permitiéndote centrarte en hacer crecer tu negocio
           con total confianza.
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
 
@@ -238,9 +244,54 @@
           para que puedas expandir tu alcance,
           aumentar las ventas y destacar en el competitivo mercado del comercio electrónico.
         </p>
-        <a href="index.html#contact" class="btn btn-outline-dark">Enviar Consulta</a>
+        <a href="index.html#exampleModal" class="btn btn-outline-dark" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Enviar Consulta</a>
       </div>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- ======= Contact Section ======= -->
+            <section id="contact" class="contact">
+              <div class="container" data-aos="fade-up">
+
+                <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                      <div class="form-group col-md-6">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" class="form-control" id="name" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="name">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Asunto</label>
+                      <input type="text" class="form-control" name="subject" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Mensaje</label>
+                      <textarea class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <div class="my-3">
+                      <div class="loading">Cargando</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message"> Gracias por enviar tu mensaje</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+                  </form>
+                </div>
+
+              </div>
+
 
   </main><!-- End #main -->
 
